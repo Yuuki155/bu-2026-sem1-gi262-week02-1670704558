@@ -12,7 +12,6 @@ namespace Workshop.Student
         public GameObject[] floorTiles;
         public GameObject[] wallTiles;
         public GameObject[] foodTiles;
-
         public string[,] saveItemMap = new string[3, 3] {
             { " ", "Soda", " "},
             { " ", " ", " "},
@@ -28,8 +27,8 @@ namespace Workshop.Student
         {
             // 1. random player at the position <0, 0> map
             {
-                int r = UnityEngine.Random.Range(0, Players.Length);
-                Instantiate(Players[r], new Vector2(0, 0), Quaternion.identity);
+                int p = UnityEngine.Random.Range(0, Players.Length);
+                Instantiate(Players[p], new Vector2(0, 0), Quaternion.identity);
             }
             // 2. create obstacles
 
@@ -71,7 +70,7 @@ namespace Workshop.Student
             {
                 for (int x = 0; x < saveItemMap.GetLength(1); x++)
                 {
-                    string item = saveItemMap[x, y];
+                    string item = saveItemMap[y, x];
                     if (!string.IsNullOrEmpty(item))
                     {
                         foreach (var food in foodTiles)
