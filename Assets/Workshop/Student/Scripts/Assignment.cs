@@ -17,16 +17,16 @@ namespace Assignment
             //AS05_DynamicIterationLoop();
             //AS06_WhileLoopAndArray();
             AS07_HealTargetAtIndex();
-            // AS08_RandomPickingDialogue();
-            // AS09_MultiplicationTable();
-            // AS10_FindSummationFromZeroToNUsingWhileLoop();
-            // AS11_SpawnEnemies();
-            // StartCoroutine(AS12_CountTime());
-            // AS13_SumOfNumbersInRow();
-            // AS14_SumOfNumbersInColumn();
-            // AS15_MakeTheTriangle();
-            // AS16_MultiplicationTableOf_2_3_and_4();
-            // EX_01_TicTacToeGame_TurnPlay();
+            //AS08_RandomPickingDialogue();
+            //AS09_MultiplicationTable();
+            //AS10_FindSummationFromZeroToNUsingWhileLoop();
+            //AS11_SpawnEnemies();
+            //StartCoroutine(AS12_CountTime());
+            //AS13_SumOfNumbersInRow();
+            //AS14_SumOfNumbersInColumn();
+            //AS15_MakeTheTriangle();
+            //AS16_MultiplicationTableOf_2_3_and_4();
+            //EX_01_TicTacToeGame_TurnPlay();
 
         }
 
